@@ -231,14 +231,32 @@ cv2.destroyAllWindows()
 
 ### OUTPUT:
 
+![image](https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/02f09dd2-9e86-4571-ae89-789480162f13)
 
 
 ### x) Split and merge HSV Image
-<br>
-<br>
+```Python
+import cv2
+img = cv2.imread("blue.jpg",1)
+img = cv2.resize(img,(300,200))
+img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
+H,S,V=cv2.split(img)
 
+cv2.imshow('Hue',H)
+cv2.imshow('Saturation',S)
+cv2.imshow('Value',V)
 
+merged = cv2.merge((H,S,V))
+cv2.imshow('Merged',merged)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+### OUTPUT:
+
+![image](https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/3bb914ee-d3f5-4bad-9d02-26906fe77db1)
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
