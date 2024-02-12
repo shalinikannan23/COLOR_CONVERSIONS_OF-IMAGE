@@ -134,21 +134,104 @@ Anaconda - Python 3.7
 <img src="https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/716ed3fa-752e-41f6-8830-01a6e90f9123">
   </td>
   </tr>
+</table>
 
 ### vi) BGR and RGB to HSV and GRAY
+```Python
+import cv2
+img = cv2.imread('dip.jpg',1)
+img = cv2.resize(img,(300,200))
+cv2.imshow('Original Image',img)
 
+hsv1 = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
+cv2.imshow('BGR2HSV',hsv1)
+
+hsv2 = cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
+cv2.imshow('RGB2HSV',hsv2)
+
+gray1 = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+cv2.imshow('BGR2GRAY',gray1)
+
+gray2 = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
+cv2.imshow('RGB2GRAY',gray2)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+### OUTPUT:
+
+![image](https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/785c2eb5-e856-46e8-be0e-0da2a9527c9e)
 
 ### vii) HSV to RGB and BGR
-<br>
-<br>
+```Python
+import cv2
+img = cv2.imread('dip.jpg')
+img = cv2.resize(img,(300,200))
+
+img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
+cv2.imshow('Original HSV Image',img)
+
+RGB = cv2.cvtColor(img,cv2.COLOR_HSV2RGB)
+cv2.imshow('2HSV2BGR',RGB)
+
+BGR = cv2.cvtColor(img,cv2.COLOR_HSV2BGR)
+cv2.imshow('HSV2RGB',BGR)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+### OUTPUT:
+
+![image](https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/591eb8a0-68c0-4119-a861-4fb1d0923768)
+
 
 ### viii) RGB and BGR to YCrCb
-<br>
-<br>
+```Python
+import cv2
+img = cv2.imread('dip.jpg')
+img = cv2.resize(img,(300,200))
+cv2.imshow('Original RGB Image',img)
+
+YCrCb1 = cv2.cvtColor(img, cv2.COLOR_BGR2YCrCb)
+cv2.imshow('RGB-2-YCrCb',YCrCb1)
+
+YCrCb2 = cv2.cvtColor(img, cv2.COLOR_RGB2YCrCb)
+cv2.imshow('BGR-2-YCrCb',YCrCb2)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+### OUTPUT:
+
+![image](https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/3dc956de-82b5-4eb8-b0de-1b484b05bb82)
 
 ### ix) Split and merge RGB Image
-<br>
-<br>
+```Python
+import cv2
+img = cv2.imread('blue.jpg',1)
+img = cv2.resize(img,(300,200))
+
+R = img[:,:,2]
+G = img[:,:,1]
+B = img[:,:,0]
+
+cv2.imshow('R-Channel',R)
+cv2.imshow('G-Channel',G)
+cv2.imshow('B-Channel',B)
+
+merged = cv2.merge((B,G,R))
+cv2.imshow('Merged RGB image',merged)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+### OUTPUT:
+
+
 
 ### x) Split and merge HSV Image
 <br>
