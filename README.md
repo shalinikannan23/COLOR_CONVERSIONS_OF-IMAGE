@@ -82,8 +82,7 @@ Anaconda - Python 3.7
   <td>
 
 ### OUTPUT:
-
- <img src="https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/4427cbe5-20ee-470b-a9b1-bee94c2d2e1d">
+<img src="https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/de8db5b3-832f-4a7a-9284-2a1f72b64309">
   </td>
   </tr>
   <tr>
