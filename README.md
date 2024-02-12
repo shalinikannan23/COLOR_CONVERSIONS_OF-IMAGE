@@ -98,7 +98,7 @@ Anaconda - Python 3.7
       for j in range(image.shape[1]):
           image[i][j]=[random.randint(0,255),
                        random.randint(0,255),
-                       random.randint(0,255)]
+                       random.randint(0,255)] 
     cv2.imshow('part image',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
