@@ -47,7 +47,8 @@ Anaconda - Python 3.7
   <td>
 
 ### OUTPUT:
- <img src="![image](https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/c3abceb3-b71b-43ac-9dbe-e09e7e6c5f01)">
+
+ <img src="https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/c3abceb3-b71b-43ac-9dbe-e09e7e6c5f01">
   </td>
   </tr>
 
@@ -64,7 +65,8 @@ Anaconda - Python 3.7
   <td>
 
 ### OUTPUT:
-<img src="![image](https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/9f0bb67e-79f1-4805-a23c-40e2d7212e36)">
+
+<img src="https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/9f0bb67e-79f1-4805-a23c-40e2d7212e36">
   </td>
   </tr>
   <tr>
@@ -81,8 +83,7 @@ Anaconda - Python 3.7
 
 ### OUTPUT:
 
- <img src="![image](https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/4427cbe5-20ee-470b-a9b1-bee94c2d2e1d)
-">
+ <img src="https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/4427cbe5-20ee-470b-a9b1-bee94c2d2e1d">
   </td>
   </tr>
   <tr>
@@ -108,7 +109,7 @@ Anaconda - Python 3.7
 
 ### OUTPUT:
 
- <img src="![image](https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/776eea03-1567-4491-a8fe-cc077363c55e)">
+ <img src="https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/776eea03-1567-4491-a8fe-cc077363c55e">
   </td>
   </tr>
   <tr>
@@ -131,7 +132,7 @@ Anaconda - Python 3.7
     
 ### OUTPUT:
 
-<img src="![image](https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/716ed3fa-752e-41f6-8830-01a6e90f9123)">
+<img src="https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/716ed3fa-752e-41f6-8830-01a6e90f9123">
   </td>
   </tr>
 
