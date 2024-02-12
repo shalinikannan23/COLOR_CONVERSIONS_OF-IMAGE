@@ -48,7 +48,7 @@ Anaconda - Python 3.7
 
 ### OUTPUT:
 
- <img src="https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/c3abceb3-b71b-43ac-9dbe-e09e7e6c5f01">
+ <img src="https://github.com/shalinikannan23/COLOR_CONVERSIONS_OF-IMAGE/assets/118656529/9f71c831-6761-4d10-ab9f-62633ae17d1b">
   </td>
   </tr>
 
